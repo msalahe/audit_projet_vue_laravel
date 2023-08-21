@@ -1,0 +1,40 @@
+
+
+
+#app {
+  font-family:Helvetica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+
+}
+body::-webkit-scrollbar-track {
+  background: none;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  background-color: var(--themeBg)!important;
+  color: var(--textColor)!important;
+
+}
+
+@media screen and (max-width: 1500px) {
+  html{
+    zoom: 0.8;
+  }
+}
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+

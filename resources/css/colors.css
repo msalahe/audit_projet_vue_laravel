@@ -1,0 +1,85 @@
+html {
+	--scrollbarBG: #CFD8DC;
+	--thumbBG: rgb(68,84,106);
+	--themeBg : #0C0B23;
+	--textColor : white;
+	--whiteColor:white;
+	--searchColor:#2f3640;
+	--navBg:#1d1933;
+	--secondColor : #4a4869;
+	--navActive:#75B0FE;
+	--navLink:#eee;
+    --borderCard:#bbb;
+	--blackBorder:black;
+	--blackColor:black;
+	--statusColor:#75B0FE;
+	--grayColor:gray;
+	--ReportBg: rgb(9,14,51);
+    --popupBg:#222147;
+    --btnBg:#10BEF1;
+    --color3 : #412089;
+    --color4 : #1E133D;
+    --CaptionCode:rgb(68,84,106);
+    --BgCode:rgb(1,22,39);
+    --CColor:rgb(237, 0, 39);
+    --HColor:rgb(255,130,42);
+    --MColor:rgb(255,206,0);
+    --LColor:rgb(116,172,68);
+    --L2Color:rgb(84,132,52);
+    --IColor:rgb(2, 136, 217);
+    --UColor:rgb(91, 91, 91);
+    --hlColor:rgb(68, 214, 255);
+	--accordianActive:#0D0B17;
+  }
+
+.bg-cri,.issue-Critical{
+    background-color: var(--CColor);
+}
+.bg-high,.issue-High{
+    background-color: var(--HColor);
+}
+.bg-med,.issue-Medium{
+    background-color: var(--MColor);
+}
+.bg-low,.issue-Low{
+    background-color: var(--LColor);
+}
+.bg-info,.issue-Infomational{
+    background-color: var(--IColor);
+}
+.bg-und,.issue-Undetermined{
+    background-color: var(--UColor);
+}
+.text-Critical{
+    color: var(--CColor);
+}
+.text-High{
+    color: var(--HColor);
+}
+.text-Medium{
+    color: var(--MColor);
+}
+.text-Low{
+    background-color: var(--LColor);
+}
+.text-Infomational{
+    color: var(--IColor);
+}
+.text-Undetermined{
+    background-color: var(--UColor);
+}
+.bg-sec{
+	background-color: var(--secondColor);
+}
+.bg-1{
+    background-color: var(--themeBg);
+}
+.bg-3{
+    background-color: var(--navActive);
+}
+.text-2{
+    color: var(--secondColor);
+}
+.text-3{
+    color: var(--navActive);
+}

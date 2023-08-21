@@ -1,0 +1,26 @@
+
+.modal{
+    display: block;
+	background-color: #00000080;
+}
+.modal-content{
+    background-color: var(--popupBg);
+    border-radius: 20px!important;
+}
+
+
+.bg-sec:hover{
+    background-color: var(--btnBg);
+}
+
+.form-control,.form-select{
+	color: var(--whiteColor);
+    /*border-radius: 40px;*/
+    
+    padding-left: 30px;
+	border:none;
+    background-color: var(--themeBg);
+}
+.form-select{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+}
